@@ -21,7 +21,7 @@ const MySkills = () => {
       className="skillsCardContainer"
       initial={{ opacity: 0 }}
       animate={{ opacity: 2 }}
-      transition={{ delay: 1, duration: 2 }}
+      transition={{ delay: 0.5, duration: 2 }}
     >
       <div
         id="skills"
