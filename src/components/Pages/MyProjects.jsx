@@ -48,7 +48,7 @@ const MyProjects = () => {
                     I have recently completed this projects. Learning Camp , Awesome
                     Cheef, JUGUETE ÚNICO. <br /> You can checkout my projects
                 </p>
-                <div className="grid md:grid-cols-3 md:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
                     {projects.map((project) => (
                         <motion.div
                             whileHover={{scale: 1.2, originX: 1}}

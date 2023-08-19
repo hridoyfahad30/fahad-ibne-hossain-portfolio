@@ -10,13 +10,13 @@ const SideNav = () => {
             className="skillsCardContainer z-50"
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            transition={{delay: 0.5, duration: 1.5}}
+            transition={{delay: 0.5, duration: 0.5}}
         >
             <nav
-                className="md:w-1/12 md:my-10 md:ml-12 z-50 mx-auto"
+                className="md:w-1/12 my-4 lg:my-10 lg:ml-12 z-50 mx-auto"
             >
                 <div
-                    className="fixed md:w-28 flex md:flex-col items-end md:items-center justify-between gap-[13px] md:gap-6 bg-[#ff6c2c1c] bg-opacity-10 backdrop-blur-sm py-2 md:py-14 px-6 rounded-2xl shadow-2xl shadow-[#ff500b2d] text-white md:text-lg">
+                    className="fixed w-full lg:w-28 flex lg:flex-col items-end md:items-center justify-between gap-[13px] md:gap-6 bg-[#ff6c2c1c] bg-opacity-10 backdrop-blur-sm py-2 md:py-4 px-6 rounded-2xl shadow-2xl shadow-[#ff500b2d] text-white md:text-lg">
                     <Link
                         to="profile"
                         spy={true}

@@ -31,14 +31,14 @@ const MySkills = () => {
           <span className="text-xl font-light">Know About</span> <br /> My
           Skills
         </h1>
-        <div className=" grid grid-cols-1 md:grid-cols-4 ">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4  mx-auto">
           {mySkills.map((skill) => (
             <motion.div
               whileHover={{ scale: 1.2, originX: 0.5 }}
               transition={{ type: "spring", stiffness: 250 }}
               
               key={skill.id}
-              className="card w-72 my-6 md:my-12 bg-gradient-to-tl from-[#1b379b46] to-[#9051a336] bg-opacity-50 mx-auto shadow-2xl shadow-[#ff720698]"
+              className="card w-64 my-6 md:my-12 bg-gradient-to-tl from-[#1b379b46] to-[#9051a336] bg-opacity-50 mx-auto shadow-2xl shadow-[#ff720698] backdrop-brightness-75"
             >
               <div className="card-body mx-auto space-y-4">
                 <h2 className="text-center text-3xl font-semibold">

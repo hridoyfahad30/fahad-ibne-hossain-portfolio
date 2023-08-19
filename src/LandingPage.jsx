@@ -35,7 +35,7 @@ const LandingPage = () => {
                     {/* Side Nav Section */}
                     <SideNav />
 
-                    <div className="md:w-10/12 my-2 px-4 md:mx-12">
+                    <div className="lg:w-10/12 my-2 px-4 mx-2 lg:mx-6">
 
                         {/* Profile Section */}
                         <HeroProfile />

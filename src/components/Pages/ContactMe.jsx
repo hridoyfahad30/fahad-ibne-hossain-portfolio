@@ -41,7 +41,7 @@ const Contact = () => {
             animate={{opacity: 1}}
             transition={{delay: 0.5, duration: 2}}
             id="contact"
-            className="flex flex-col-reverse md:flex-row justify-center md:gap-40 items-center my-28">
+            className="flex flex-col-reverse lg:flex-row justify-center lg:gap-40 items-center my-28">
             <div>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="card-body w-96 shadow-2xl shadow-[#ff5c0445] mx-auto bg-[#684d4111] rounded-b-3xl">
