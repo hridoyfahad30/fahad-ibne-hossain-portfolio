@@ -13,10 +13,10 @@ const SideNav = () => {
             transition={{delay: 0.5, duration: 0.5}}
         >
             <nav
-                className="md:w-1/12 my-4 lg:my-10 lg:ml-12 z-50 mx-auto"
+                className="md:w-1/12 mb-4 lg:my-10 lg:ml-12 z-50 mx-auto"
             >
                 <div
-                    className="fixed w-full lg:w-28 flex lg:flex-col items-end md:items-center justify-between gap-[13px] md:gap-6 bg-[#ff6c2c1c] bg-opacity-10 backdrop-blur-sm py-2 md:py-4 px-6 rounded-2xl shadow-2xl shadow-[#ff500b2d] text-white md:text-lg">
+                    className="fixed w-full lg:w-28 flex lg:flex-col items-end md:items-center justify-start gap-3 md:gap-6 bg-[#ff6c2c1c] bg-opacity-10 backdrop-blur-sm py-2 md:py-4 px-2 md:px-6 rounded-2xl shadow-2xl shadow-[#ff500b2d] text-white md:text-lg">
                     <Link
                         to="profile"
                         spy={true}
@@ -30,8 +30,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col items-center gap-2 text-center text-white mb-2 duration-200">
-                                <FaUserAlt className="text-4xl" />
+                            <p className="navItems flex flex-col items-center gap-2 text-xs md:text-lg text-center text-white mb-2 duration-200">
+                                <FaUserAlt className="text-lg md:text-4xl" />
                                 Profile
                             </p>
                         </motion.button>
@@ -48,8 +48,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col gap-2 items-center text-white mb-2  ">
-                                <FaAddressCard className="text-4xl" />
+                            <p className="navItems flex flex-col gap-2 items-center text-white text-xs md:text-lg mb-2  ">
+                                <FaAddressCard className="text-lg md:text-4xl" />
                                 About
                             </p>
                         </motion.button>
@@ -66,8 +66,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col gap-2 text-center text-white mb-2 ">
-                                <CogIcon className="h-10" />
+                            <p className="navItems flex flex-col gap-2 text-center text-white text-xs md:text-lg mb-2 ">
+                                <CogIcon className="h-5 md:h-12" />
                                 Service
                             </p>
                         </motion.button>
@@ -84,8 +84,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col gap-2 text-center text-white mb-2 ">
-                                <CommandLineIcon className="h-10" />
+                            <p className="navItems flex flex-col gap-2 text-center text-white text-xs md:text-lg mb-2 ">
+                                <CommandLineIcon className="h-5 md:h-12" />
                                 Skills
                             </p>
                         </motion.button>
@@ -102,8 +102,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col gap-2 text-center text-white mb-2 ">
-                                <RocketLaunchIcon className="h-10" />
+                            <p className="navItems flex flex-col gap-2 text-center text-white text-xs md:text-lg mb-2 ">
+                                <RocketLaunchIcon className="h-5 md:h-12" />
                                 Projects
                             </p>
                         </motion.button>
@@ -120,8 +120,8 @@ const SideNav = () => {
                             transition={{type: "spring", stiffness: 250}}
                             className=""
                         >
-                            <p className="navItems flex flex-col gap-2 text-center text-white mb-2 ">
-                                <PaperAirplaneIcon className="h-10 -rotate-45" />
+                            <p className="navItems flex flex-col gap-2 text-center text-white text-xs md:text-lg mb-2 ">
+                                <PaperAirplaneIcon className="h-5 md:h-12 -rotate-45" />
                                 Contact
                             </p>
                         </motion.button>

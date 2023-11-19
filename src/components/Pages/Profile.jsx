@@ -19,9 +19,9 @@ const HeroProfile = () => {
         <TopNav />
         <div className="lg:flex justify-between items-center">
           <div className="lg:w-1/2">
-            <h2 className="text-2xl lg:text-3xl font-medium flex items-center gap-2">
+            <h2 className="text-lg md:text-2xl lg:text-3xl font-medium flex items-center gap-2">
               I'm a{" "}
-              <span className="text-2xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#7dd2f6] to-[#f0b3f1]">
+              <span className="text-lg md:text-2xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#7dd2f6] to-[#f0b3f1]">
                 <Typewriter
                   options={{
                     strings: [
@@ -41,14 +41,14 @@ const HeroProfile = () => {
                 />
               </span>
             </h2>
-            <p className="my-6 text-xl text-gray-200 md:w-9/12">
+            <p className="my-6 text-sm md:text-xl text-gray-200 md:w-9/12">
               I'm a Passionate Frontend Developer with strong teamwork skills.
               Committed to delivering high-quality code and creating innovative
               solutions. Dedicated to continuous learning and staying up-to-date
               with the latest technologies and trends in development.
             </p>
             <div className="flex flex-col-reverse md:flex-row justify-center md:justify-start items-center gap-4 my-8">
-              <Link to="https://drive.google.com/u/0/uc?id=1GyDaEsBnn39ScQVBh2foPbFpv2RbKpWf&export=download">
+              <Link to="https://drive.google.com/u/0/uc?id=1gP3KBw74bJlYrzGCwrvbP3IydnGHiqdd&export=download">
                 <motion.button
                   whileHover={{ scale: 1.1, originX: 1 }}
                   transition={{ type: "spring", stiffness: 180 }}

@@ -35,7 +35,7 @@ const AboutPage = () => {
               user-friendly web applications.
             </h5>
             <div className="flex flex-col-reverse md:flex-row justify-center md:justify-start items-center gap-4 my-8">
-              <Link to="https://drive.google.com/u/0/uc?id=1GyDaEsBnn39ScQVBh2foPbFpv2RbKpWf&export=download">
+              <Link to="https://drive.google.com/u/0/uc?id=1gP3KBw74bJlYrzGCwrvbP3IydnGHiqdd&export=download">
                 <motion.button
                   whileHover={{ scale: 1.1, originX: 1 }}
                   transition={{ type: "spring", stiffness: 180 }}
@@ -54,7 +54,7 @@ const AboutPage = () => {
               <h1 className="text-xl">
                 <span className="text-5xl font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-[#0eaaee] to-[#f5aff6]">
                   {counterStart && (
-                    <CountUp start={0} end={6} duration={2} delay={1.5} />
+                    <CountUp start={0} end={11} duration={2} delay={1.5} />
                   )}
                   +{" "}
                 </span>{" "}
@@ -63,12 +63,13 @@ const AboutPage = () => {
               <h1 className="text-xl">
                 <span className="text-5xl font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-[#0eaaee] to-[#f5aff6]">
                   {counterStart && (
-                    <CountUp start={0} end={13} duration={2} delay={2} />
+                    <CountUp start={0} end={15} duration={2} delay={2} />
                   )}
                   +
                 </span>{" "}
                 Projects
               </h1>
+              
             </div>
           </ScrollTrigger>
         </div>
