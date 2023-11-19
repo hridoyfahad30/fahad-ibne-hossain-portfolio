@@ -63,7 +63,7 @@ const AboutPage = () => {
               <h1 className="text-xl">
                 <span className="text-5xl font-extrabold text-transparent  bg-clip-text bg-gradient-to-r from-[#0eaaee] to-[#f5aff6]">
                   {counterStart && (
-                    <CountUp start={0} end={15} duration={2} delay={2} />
+                    <CountUp start={0} end={16} duration={2} delay={2} />
                   )}
                   +
                 </span>{" "}
